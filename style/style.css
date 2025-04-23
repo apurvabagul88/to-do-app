@@ -1,0 +1,292 @@
+ /* .box{
+    margin:20px;
+    background-color: rgb(161, 175, 134);
+    padding:30px;
+}
+
+
+
+
+
+
+
+.dark{
+     background-color: black;
+     color: aliceblue;
+
+}
+
+.light{
+    background-color:white;
+    color: black;
+
+} */
+
+
+
+/* body{
+    background:#ffffff;
+    background-color:;
+}
+
+
+#loader {
+    position:fixed;
+    top:50%;
+    left:50%;
+    background:#ffffff;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+
+#loader {
+    content:"fdgfhgfh";
+    width: 50px;
+    height: 50px;
+    border: 6px solid lightseagreen;
+    border-top: 6px solid transparent;
+    border-radius: 50%;
+    animation: golfir 1s ease infinite;
+
+    
+}
+
+@keyframes golfir {
+  to {
+    transform:rotate(360deg);
+  }
+}
+ */
+
+/* popup-form */
+/* 
+ #popup{
+  
+  position:fixed;
+  top:35%;
+  left:35%;
+  background-color: black;
+  display: none;
+  align-items:center;
+  justify-content: center;
+  z-index: 10000;
+
+}
+
+.popup-box{
+
+  background-color: aliceblue;
+  padding: 20px 30px;
+  border-radius: 20px;
+  text-align:20px;
+  position:relative;
+
+}
+
+
+.popup-box h2{
+
+  margin-bottom: 15px;
+  color: black;
+
+}
+
+
+
+.popup-box input{
+
+  padding: 10px;
+  margin:10px;
+  width: 80%;
+}   */
+
+
+
+
+/* body{
+
+text-align: center;
+background-color: #7e1959;
+}
+
+.container{
+  height:70vh;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  gap: 15px;
+}
+
+.game{
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  
+}
+
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 15px;
+  border: none;
+  font-size: 8vmin;
+  color: crimson;
+  background-color: rgb(117, 174, 224);
+
+}
+
+
+#reset-btn{
+   padding: 20px;
+   font-size: 20px;
+   background-color: darkslategray;
+   color:aliceblue;
+   border-radius: 15px;
+   margin-top: 20px;
+   border: none;
+
+  }
+
+
+  #msg{
+    font-size: 30px;
+    color: deepskyblue;
+
+  }
+
+
+  @media(max-width:480px){
+
+    .game{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 10px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      max-width: 500px;
+      aspect-ratio: 1 / 1;
+
+    
+    }
+
+  } */
+
+
+  body{
+    background: url('../bg.webp') no-repeat center center/cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: "poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100vh;
+    align-items: center;
+    justify-content : center;
+
+  }
+
+  .container{
+    border: 1px solid rgba(255 ,255 ,255,0.3);
+    border-radius: 20px;
+    padding:30px;
+    width:350px;
+    text-align: center;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    
+  }
+
+h1{
+  color: rgb(0,0,0);
+  margin-bottom: 20px;
+}
+
+
+.input-group{
+  display: flex;
+  margin-bottom: 20px;
+
+}
+
+
+#taskInput{
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px 0 0 10px;
+  font-size:16px;
+  flex:1;
+  
+}
+
+#taskList{
+  margin:0px;
+  padding:0px;
+  color: rgb(35, 39, 109);
+}
+
+
+#taskList li{
+    background:rgba(255,255,255,0.2);
+    padding:10px;
+    margin-bottom:10px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    border-radius:30px;
+    
+}
+
+#addTaskBtn{
+  padding:10px 20px;
+  border:none;
+ color:rgb(255,243,243);
+  background-color: #020712f6;
+  border-radius: 0 10px 10px 0;
+  font-size:16px;
+  cursor:pointer;
+}
+
+.delete-btn{
+  background-color:#ebaac1;
+  padding:5px 10px;
+  cursor:pointer;
+  border-radius: 10px;
+
+}
+
+
+.delete-btn:hover{
+  background-color:rgb(161, 35, 224);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
